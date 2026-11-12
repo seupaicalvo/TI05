@@ -1,9 +1,0 @@
-var hora
-
-var hora = prompt("Digite a hora atual:");
-
-if (hora >= 9 && hora <= 18) {
-    alert("Suporte Online.");
-} else {
-    alert("Suporte Offline.");
-}
