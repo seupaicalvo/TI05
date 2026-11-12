@@ -1,0 +1,10 @@
+var termos
+var politicas
+var termos = prompt("Aceita os Termos de Uso?");
+var politicas = prompt("Aceita as Políticas de Privacidade?");
+
+if (termos == "S" && politicas == "S") {
+    alert("Cadastro finalizado com sucesso.");
+} else {
+    alert("Cadastro não finalizado.");
+}

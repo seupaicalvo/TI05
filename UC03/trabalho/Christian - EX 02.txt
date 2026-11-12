@@ -1,0 +1,10 @@
+var aniversario
+var cartao
+
+var aniversario = prompt("Hoje é seu aniversário?");
+var cartao = prompt("Você possui o cartão fidelidade?");
+
+if (aniversario == "S" || cartao == "S") {
+    alert("Você recebeu 15% de desconto!");
+} else {
+    alert("Você não recebeu o desconto.");

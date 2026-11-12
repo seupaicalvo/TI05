@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprovação</title>
+    <script>
+         var media = 7;
+         var faltas = 5;
+         var nota1 ,nota2 , media_aluno, faltas_aluno;
+         var resultado;
+
+       
+         nota1 = parseFloat(prompt("Digite a primeira nota"));
+         nota2 = parseFloat(prompt("Digite a segunda nota"));
+         faltas_aluno = parseInt(prompt("Digite a quantidade de faltas do aluno"));
+
+         media_aluno = (nota1+nota2)/2;
+
+        
+
+        if((media_aluno >= media) && (faltas_aluno <= faltas)){
+             resultado = true;
+         }
+         else{
+             resultado = false;
+         }
+
+        
+         sole.log("Sua média foi : " + media_aluno.toFixed(1));
+         sole.log("E o aluno foi " + ((resultado) ? "aprovado" : "aprovado"));
+
+        // operador tenário
+
+        //  var teste = (true) ? "verdadeiro" : "falso";
+        //  console.log(teste);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

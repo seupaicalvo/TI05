@@ -1,0 +1,8 @@
+var cupom
+var cupom = prompt("Digite o cupom de desconto:");
+
+if (cupom == "BLACKFRIDAY" || cupom == "BEMVINDO") {
+    alert("Desconto de R$ 50,00 aplicado.");
+} else {
+    alert("Cupom inválido. Desconto não aplicado.");
+}

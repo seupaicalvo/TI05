@@ -1,0 +1,22 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+
+div{
+    display: flex;
+    justify-content: center;
+
+    
+    width: 100px;
+    height: 30px;
+}

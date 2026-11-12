@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade8</title> 
+    <script>
+       /* Determine o valor da entrega:
+
+Compras até R$ 100 → Taxa de R$ 15
+Compras até R$ 300 → Taxa de R$ 5
+Acima de R$ 300 → Frete grátis*/
+
+  var valor;
+  var entrega;
+
+  valor = prompt("valor da compra");
+
+  if(valor < 100){
+    entrega = "taxa de R$ 15";
+  }
+  else if(valor < 300){
+    entrega = "taxa de R$ 5";
+  }
+  else if(valor > 300){
+    entrega = "frete grátis";
+  }
+
+  console.log("com base ao valor da entrega seu frete é : " + entrega);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

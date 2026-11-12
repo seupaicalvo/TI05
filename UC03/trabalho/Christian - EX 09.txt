@@ -1,0 +1,11 @@
+var quantidade
+var modelo
+
+var quantidade = prompt("Digite a quantidade de camisetas:");
+var modelo = prompt("Digite o modelo escolhido:");
+
+if (quantidade >= 3 && modelo == "Básica") {
+    alert("Promoção de atacado aplicada: Leve 3 Pague 2.");
+} else {
+    alert("Compra não atende aos critérios da promoção.");
+}

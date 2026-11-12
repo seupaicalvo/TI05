@@ -1,0 +1,12 @@
+var primeira_Compra
+var valor
+
+var primeira_Compra = prompt("Esta é sua primeira compra?");
+var valor = prompt("Digite o valor total da compra:");
+
+if (primeira_Compra == "S" && valor >= 50) {
+    valor = valor - 10;
+    alert("Valor final da compra: R$ " + valor);
+} else {
+    alert("Valor final da compra: R$ " + valor);
+}

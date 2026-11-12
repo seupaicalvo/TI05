@@ -1,0 +1,10 @@
+var renda
+var divida
+var renda = prompt("Digite sua renda mensal:");
+var divida = prompt("Possui dívidas ativas?");
+
+if (renda > 2500 && divida == "N") {
+    alert("Crediário aprovado.");
+} else {
+    alert("Crediário reprovado.");
+}

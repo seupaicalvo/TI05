@@ -1,0 +1,10 @@
+var notebook
+var valor
+var notebook = prompt("A compra inclui um notebook?");
+var valor = prompt("Digite o valor total da compra:");
+
+if (notebook == "S" || valor > 3000) {
+    alert("Você ganhou o brinde especial!");
+} else {
+    alert("Obrigado pela compra!");
+}

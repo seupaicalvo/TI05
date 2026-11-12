@@ -1,0 +1,10 @@
+var valor
+        var regiao
+        var valor = prompt("Digite o valor da compra:");
+        var regiao = prompt("Digite a região:");
+
+        if (valor > 200 && regiao == "Sudeste") {
+            alert("Tem direito ao frete grátis.");
+        } else {
+            alert("Não tem direito ao frete grátis.");
+        }
